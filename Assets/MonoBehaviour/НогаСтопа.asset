@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9750e678cc8800101c9c1f4bc2ab3265, type: 3}
+  m_Name: "\u041D\u043E\u0433\u0430\u0421\u0442\u043E\u043F\u0430"
+  m_EditorClassIdentifier: 
+  spriteSource: {fileID: 21300000, guid: 3ef165e7d6a742db891d2fbe054b583a, type: 3}
+  group: 
+  damageAsGroup: 0
+  damages:
+  - idDamage: "\u0440\u0430\u0437\u0440\u044B\u0432\u041A\u043E\u043B\u0435\u043D\u043E"
+    blood: {fileID: 21300000, guid: ad6e9cca051145a5a9f61ee8e34fbcac, type: 3}
+    hole: {fileID: 21300000, guid: 97cd5251e02747f2b828c7288de7ae4b, type: 3}
+    slideToEdge: 0
+    positionPixels: {x: 30, y: 0}
+  skins:
+  - {fileID: 21300000, guid: 3b2a4aae6dc54aa9ae43e05ad751874a, type: 3}
+  - {fileID: 21300000, guid: c33b1697182141e4bb35d022b936faa7, type: 3}
+  - {fileID: 21300000, guid: fd80710f393a4f88816b964abe562a5c, type: 3}
+  - {fileID: 21300000, guid: 7ac4246bdd9b41f1b641005496e44cea, type: 3}
+  - {fileID: 21300000, guid: 77c91a7977b64e6dabf943d68129c164, type: 3}

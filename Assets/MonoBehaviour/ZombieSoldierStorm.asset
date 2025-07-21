@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6228ff1b1702649158c23ffd5e04f469, type: 3}
+  m_Name: "ZombieSoldierStorm"
+  m_EditorClassIdentifier: 
+  slide: {x: 1, y: 0}
+  damageStrike: 2
+  animationStart:
+  - "\u0411\u0435\u0433"
+  - "\u0418\u0434\u0442\u0438"
+  - "\u0418\u0434\u0442\u0438"
+  - "\u0418\u0434\u0442\u0438"
+  - "\u0418\u0434\u0442\u0438"
+  - "\u0418\u0434\u0442\u0438"
+  colorsBody: []
+  colorsLegs: []
+  randomSprites:
+  - replace: {fileID: 21300000, guid: 296f5e2f423d456cb40f56588cca7feb, type: 3}
+    sprites:
+    - {fileID: 21300000, guid: 296f5e2f423d456cb40f56588cca7feb, type: 3}
+    - {fileID: 21300002, guid: 296f5e2f423d456cb40f56588cca7feb, type: 3}
+    - {fileID: 21300004, guid: 296f5e2f423d456cb40f56588cca7feb, type: 3}
+    - {fileID: 21300006, guid: 296f5e2f423d456cb40f56588cca7feb, type: 3}
+  - replace: {fileID: 21300000, guid: 6d74678e12cb4ef2adc82cc1d35b5dd8, type: 3}
+    sprites:
+    - {fileID: 21300000, guid: 6d74678e12cb4ef2adc82cc1d35b5dd8, type: 3}
+    - {fileID: 21300002, guid: 6d74678e12cb4ef2adc82cc1d35b5dd8, type: 3}
+    - {fileID: 21300004, guid: 6d74678e12cb4ef2adc82cc1d35b5dd8, type: 3}
+    - {fileID: 21300006, guid: 6d74678e12cb4ef2adc82cc1d35b5dd8, type: 3}
+    - {fileID: 21300008, guid: 6d74678e12cb4ef2adc82cc1d35b5dd8, type: 3}
+    - {fileID: 21300010, guid: 6d74678e12cb4ef2adc82cc1d35b5dd8, type: 3}
+  - replace: {fileID: 21300000, guid: 694a53c45e2d473abfb72ea79ebf6d89, type: 3}
+    sprites:
+    - {fileID: 21300000, guid: daacf64f06154575a62833b47b6a93d9, type: 3}
+    - {fileID: 21300000, guid: d33855acad074446b66a8fa5c423b0f3, type: 3}
+    - {fileID: 21300000, guid: 12b365e869bf420a862406d783a67906, type: 3}
+    - {fileID: 21300000, guid: 9467906ca5fa4170abff161fbd9af077, type: 3}
+    - {fileID: 21300000, guid: 694a53c45e2d473abfb72ea79ebf6d89, type: 3}
+    - {fileID: 21300000, guid: d1948e419a18444185d668bc64274d56, type: 3}
+    - {fileID: 21300000, guid: d20ac2a22f97448f9e9d11e85e83b443, type: 3}
+    - {fileID: 21300000, guid: 9c8e18b2968d4edfbecfb56866b68cab, type: 3}
+    - {fileID: 21300000, guid: 267fd6312ef04425bd4f11e835df1e9c, type: 3}
+    - {fileID: 21300000, guid: 2ebd770c345840b6b733f062d9df951f, type: 3}
+    - {fileID: 21300000, guid: 7d26b7bb57ae4453a6953df77ea3d481, type: 3}
+    - {fileID: 21300000, guid: bd6edcece71544f5b3dfb7a3b92e0782, type: 3}
+    - {fileID: 21300000, guid: 9acef020472c488a8107c92a9220c46c, type: 3}
+  - replace: {fileID: 21300000, guid: af002362654044da95622d7680602ec2, type: 3}
+    sprites:
+    - {fileID: 21300000, guid: 18e0bd8f35a1439298456feb4a1bcaed, type: 3}
+  resetColorRender: 0
+  physicsMaterialSprites:
+  - sprite: {fileID: 21300000, guid: 18e0bd8f35a1439298456feb4a1bcaed, type: 3}
+    material: {fileID: 6200000, guid: 5000838c7717446a890a41ad33efbeda, type: 2}
+  - sprite: {fileID: 21300000, guid: d1948e419a18444185d668bc64274d56, type: 3}
+    material: {fileID: 6200000, guid: ec584e155ea141fe86cba7076cf33ae3, type: 2}
+  - sprite: {fileID: 21300000, guid: d20ac2a22f97448f9e9d11e85e83b443, type: 3}
+    material: {fileID: 6200000, guid: ec584e155ea141fe86cba7076cf33ae3, type: 2}
+  - sprite: {fileID: 21300000, guid: 9c8e18b2968d4edfbecfb56866b68cab, type: 3}
+    material: {fileID: 6200000, guid: ec584e155ea141fe86cba7076cf33ae3, type: 2}
+  - sprite: {fileID: 21300000, guid: 267fd6312ef04425bd4f11e835df1e9c, type: 3}
+    material: {fileID: 6200000, guid: ec584e155ea141fe86cba7076cf33ae3, type: 2}
+  - sprite: {fileID: 21300000, guid: 2ebd770c345840b6b733f062d9df951f, type: 3}
+    material: {fileID: 6200000, guid: ec584e155ea141fe86cba7076cf33ae3, type: 2}
+  - sprite: {fileID: 21300000, guid: 7d26b7bb57ae4453a6953df77ea3d481, type: 3}
+    material: {fileID: 6200000, guid: ec584e155ea141fe86cba7076cf33ae3, type: 2}
+  - sprite: {fileID: 21300000, guid: bd6edcece71544f5b3dfb7a3b92e0782, type: 3}
+    material: {fileID: 6200000, guid: ec584e155ea141fe86cba7076cf33ae3, type: 2}
+  - sprite: {fileID: 21300000, guid: 9acef020472c488a8107c92a9220c46c, type: 3}
+    material: {fileID: 6200000, guid: ec584e155ea141fe86cba7076cf33ae3, type: 2}
+  switchRenders: []
+  areaDamageDisable: []

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33780cb269f30e0e653c8496be7e3fbb, type: 3}
+  m_Name: "Bullet Topor"
+  m_EditorClassIdentifier: 
+  sourceBullets:
+    bullets: 2
+    angleScatter: 2
+    evenlySpread: 0.8
+    damage: 8
+    impulse: 300
+    distance: 3.2
+    hitsBullet:
+      modeHit: 0
+      numsMin: 2
+      numsMax: 2
+      distHitsMin: 0
+      distHitsMax: 10
+    damageMultiply:
+    - multiply: 0.5
+      material: {fileID: 6200000, guid: 5000838c7717446a890a41ad33efbeda, type: 2}
+      stopBullet: 0
+    - multiply: 0.25
+      material: {fileID: 6200000, guid: ec584e155ea141fe86cba7076cf33ae3, type: 2}
+      stopBullet: 0
+    tagEntity: 
+    layerBodies:
+      serializedVersion: 2
+      m_Bits: 1025
+  soundsHit:
+  - material: {fileID: 6200000, guid: 5000838c7717446a890a41ad33efbeda, type: 2}
+    sound: {fileID: 8300000, guid: 6a2ca460b9494ff2b7ee6ac5d75798d0, type: 3}
+  - material: {fileID: 6200000, guid: ec584e155ea141fe86cba7076cf33ae3, type: 2}
+    sound: {fileID: 8300000, guid: 6a2ca460b9494ff2b7ee6ac5d75798d0, type: 3}
+  effectsHits: {fileID: 11400000, guid: d289206185e44dfb82e98173509e6f09, type: 2}
+  distCamera: 0

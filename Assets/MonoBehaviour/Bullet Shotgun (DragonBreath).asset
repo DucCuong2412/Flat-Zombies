@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fcd97412122fb408ed5e983c35d9df1, type: 3}
+  m_Name: "Bullet Shotgun (DragonBreath)"
+  m_EditorClassIdentifier: 
+  sourceBullets:
+    bullets: 1
+    angleScatter: 0
+    evenlySpread: 0
+    damage: 1
+    impulse: 200
+    distance: 4
+    hitsBullet:
+      modeHit: 2
+      numsMin: 1
+      numsMax: 5
+      distHitsMin: 0.25
+      distHitsMax: 5
+    damageMultiply: []
+    tagEntity: 
+    layerBodies:
+      serializedVersion: 2
+      m_Bits: 1025
+  soundsHit: []
+  effectsHits: {fileID: 11400000, guid: 1876147faa2c43fc8e73c509d8c4b6d6, type: 2}
+  originalArrow: {fileID: 1791808543084232561, guid: 68558b407c0a49b3bf9cf8df3d36a15f, type: 2}
+  numArrows: 8
+  angleScatter: 3.8
+  evenlySpread: 0.85
+  timeTriggers: 0.5
+  distHitArrow: 25
+  objectsHitStage: []

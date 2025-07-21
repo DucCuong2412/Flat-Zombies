@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SceneLoading.unity
+    guid: a31d4ea7fe4227c4b974323426fc6646
+  - enabled: 1
+    path: Assets/SceneMainMenu.unity
+    guid: f8a938dd95b786545aa404794fd1e8bb
+  - enabled: 1
+    path: Assets/SceneModeCleanup.unity
+    guid: 1ec72c26183be3946bec134e202a40d6
+  - enabled: 1
+    path: Assets/SceneModeTraining.unity
+    guid: d009755b583ccfc4ead59cdc7a081b70
+  - enabled: 1
+    path: Assets/SceneHome.unity
+    guid: 61e490b502de5ba488f11edd08130d60
+  - enabled: 1
+    path: Assets/SceneTraining.unity
+    guid: ccfb06a146ababa47aed5991b095b3f5
+  - enabled: 1
+    path: Assets/SceneModeRooms.unity
+    guid: c5c31c7dd76b13645a2c56d7094d8e40
+  - enabled: 1
+    path: Assets/SceneRooms.unity
+    guid: cb4b4548ff50a134a8c68aad9fac974d
+  - enabled: 1
+    path: Assets/SceneRoom.unity
+    guid: 41d151c599283bd489a0525f0b3a8187
+  - enabled: 1
+    path: Assets/SceneRoomKitchen.unity
+    guid: a999138a15ecd824194bde6fef70f1be
+  - enabled: 1
+    path: Assets/SceneDefense.unity
+    guid: 6b12268ddbb973a438e130091048e776
+  - enabled: 1
+    path: Assets/SceneModeDefense.unity
+    guid: b2a0a49b124de704aa2be224fb8e9352
+  - enabled: 1
+    path: Assets/SceneHospital.unity
+    guid: 7e9b1465eab3fbf4c860b0fe8e7c370b
+  - enabled: 1
+    path: Assets/SceneModeHospital.unity
+    guid: e196820d07e96154eb51864c4c719697
+  - enabled: 1
+    path: Assets/SceneModeStreet.unity
+    guid: ba6a2bcae05f23f45a48e83b75bba5dd
+  - enabled: 1
+    path: Assets/SceneStreetCrowd.unity
+    guid: 820c334d1fab5b042a7b8a707017b39b

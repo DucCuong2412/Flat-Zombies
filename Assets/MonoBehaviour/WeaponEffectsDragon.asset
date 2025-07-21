@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d51ea280f4ef2eb938073d52a7be6e69, type: 3}
+  m_Name: "WeaponEffectsDragon"
+  m_EditorClassIdentifier: 
+  takeStage: 1
+  effectsHitsMaterials:
+  - material: {fileID: 6200000, guid: ec584e155ea141fe86cba7076cf33ae3, type: 2}
+    drops: {fileID: 1791808541188405998, guid: 37292ac9564c4957ad6117cf04eca0dc, type: 2}
+    max: 6
+    sceneObjects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - material: {fileID: 6200000, guid: ec584e155ea141fe86cba7076cf33ae3, type: 2}
+    drops: {fileID: 1791808541188406223, guid: 2e7cc858f5a74187b5d5d19a58152382, type: 2}
+    max: 2
+    sceneObjects:
+    - {fileID: 0}
+    - {fileID: 0}
+  - material: {fileID: 6200000, guid: ec584e155ea141fe86cba7076cf33ae3, type: 2}
+    drops: {fileID: 1791808541188406136, guid: 77929c687149425bbc6efe5681ea07db, type: 2}
+    max: 12
+    sceneObjects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - material: {fileID: 6200000, guid: 5000838c7717446a890a41ad33efbeda, type: 2}
+    drops: {fileID: 1791808541188405998, guid: 37292ac9564c4957ad6117cf04eca0dc, type: 2}
+    max: 6
+    sceneObjects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - material: {fileID: 6200000, guid: 5000838c7717446a890a41ad33efbeda, type: 2}
+    drops: {fileID: 1791808541188406136, guid: 77929c687149425bbc6efe5681ea07db, type: 2}
+    max: 6
+    sceneObjects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - material: {fileID: 6200000, guid: 937b48d71a454027a3da274b437a974d, type: 2}
+    drops: {fileID: 1791808541188405998, guid: 37292ac9564c4957ad6117cf04eca0dc, type: 2}
+    max: 6
+    sceneObjects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - material: {fileID: 6200000, guid: 937b48d71a454027a3da274b437a974d, type: 2}
+    drops: {fileID: 1791808541188406136, guid: 77929c687149425bbc6efe5681ea07db, type: 2}
+    max: 6
+    sceneObjects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - material: {fileID: 6200000, guid: 6ab6c138279c48a4b2adcd78b0fd629a, type: 2}
+    drops: {fileID: 1791808541188405998, guid: 37292ac9564c4957ad6117cf04eca0dc, type: 2}
+    max: 6
+    sceneObjects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  parent: {fileID: 0}

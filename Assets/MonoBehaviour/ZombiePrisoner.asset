@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6228ff1b1702649158c23ffd5e04f469, type: 3}
+  m_Name: "ZombiePrisoner"
+  m_EditorClassIdentifier: 
+  slide: {x: 1, y: 0}
+  damageStrike: 1
+  animationStart: []
+  colorsBody:
+  - {r: 0.8666667, g: 0.427451, b: 0.1490196, a: 1}
+  colorsLegs:
+  - {r: 0.8078432, g: 0.3960785, b: 0.1372549, a: 1}
+  randomSprites:
+  - replace: {fileID: 21300000, guid: 296f5e2f423d456cb40f56588cca7feb, type: 3}
+    sprites:
+    - {fileID: 21300000, guid: 296f5e2f423d456cb40f56588cca7feb, type: 3}
+    - {fileID: 21300002, guid: 296f5e2f423d456cb40f56588cca7feb, type: 3}
+    - {fileID: 21300004, guid: 296f5e2f423d456cb40f56588cca7feb, type: 3}
+    - {fileID: 21300006, guid: 296f5e2f423d456cb40f56588cca7feb, type: 3}
+  - replace: {fileID: 21300000, guid: 6d74678e12cb4ef2adc82cc1d35b5dd8, type: 3}
+    sprites:
+    - {fileID: 21300000, guid: 6d74678e12cb4ef2adc82cc1d35b5dd8, type: 3}
+    - {fileID: 21300002, guid: 6d74678e12cb4ef2adc82cc1d35b5dd8, type: 3}
+    - {fileID: 21300004, guid: 6d74678e12cb4ef2adc82cc1d35b5dd8, type: 3}
+    - {fileID: 21300006, guid: 6d74678e12cb4ef2adc82cc1d35b5dd8, type: 3}
+    - {fileID: 21300008, guid: 6d74678e12cb4ef2adc82cc1d35b5dd8, type: 3}
+    - {fileID: 21300010, guid: 6d74678e12cb4ef2adc82cc1d35b5dd8, type: 3}
+  - replace: {fileID: 21300000, guid: 23eb06fd817e4278a4dcfe3a611ecdcc, type: 3}
+    sprites:
+    - {fileID: 21300000, guid: 41424c8498ff497e8a235df06207d045, type: 3}
+    - {fileID: 21300000, guid: d1948e419a18444185d668bc64274d56, type: 3}
+    - {fileID: 21300000, guid: 543c419467584bdba745e65893fdc92f, type: 3}
+    - {fileID: 21300000, guid: d20ac2a22f97448f9e9d11e85e83b443, type: 3}
+    - {fileID: 21300000, guid: c91e05a15f434bceb4636e401182ae85, type: 3}
+    - {fileID: 21300000, guid: e1d620f25f9d4720bfbf55c73e1dbf7b, type: 3}
+    - {fileID: 21300000, guid: de0aa98280424874820bd75c262ca5d5, type: 3}
+    - {fileID: 21300000, guid: 9c8e18b2968d4edfbecfb56866b68cab, type: 3}
+    - {fileID: 21300000, guid: 1ed804b96ebe459a9fc90b5d5efb906c, type: 3}
+    - {fileID: 21300000, guid: 22894c0667654833a8c7da785d3dc4f3, type: 3}
+    - {fileID: 21300000, guid: 267fd6312ef04425bd4f11e835df1e9c, type: 3}
+    - {fileID: 21300000, guid: 2ebd770c345840b6b733f062d9df951f, type: 3}
+    - {fileID: 21300000, guid: 3946942615264bceb01c1db3d20e3f36, type: 3}
+    - {fileID: 21300000, guid: 7d26b7bb57ae4453a6953df77ea3d481, type: 3}
+    - {fileID: 21300000, guid: e90c877ac3764740bc92c3c55159ee96, type: 3}
+    - {fileID: 21300000, guid: bd6edcece71544f5b3dfb7a3b92e0782, type: 3}
+    - {fileID: 21300000, guid: 6e1e7590e8834b319b0370b56765e43f, type: 3}
+    - {fileID: 21300000, guid: 9acef020472c488a8107c92a9220c46c, type: 3}
+  - replace: {fileID: 21300000, guid: 72f03effe5d04598b0d0d17a30ad26e9, type: 3}
+    sprites:
+    - {fileID: 21300000, guid: 1241dca6d1b04afaa50aba523b2dcc51, type: 3}
+  - replace: {fileID: 21300000, guid: 1c4136544e304917b315152b856ee87e, type: 3}
+    sprites:
+    - {fileID: 21300000, guid: 5fee6eb4d9ea4fd9b42992e55c657ebe, type: 3}
+  - replace: {fileID: 21300000, guid: 3ef165e7d6a742db891d2fbe054b583a, type: 3}
+    sprites:
+    - {fileID: 21300000, guid: 7ac4246bdd9b41f1b641005496e44cea, type: 3}
+  - replace: {fileID: 21300000, guid: 3b2a4aae6dc54aa9ae43e05ad751874a, type: 3}
+    sprites:
+    - {fileID: 21300000, guid: 77c91a7977b64e6dabf943d68129c164, type: 3}
+  resetColorRender: 1
+  physicsMaterialSprites: []
+  switchRenders:
+  - {fileID: 21300000, guid: 48a801a4c5534a0ab35c4c9aabbc3e69, type: 3}
+  areaDamageDisable:
+  - areaName: "\u041F\u0440\u0438\u043A\u0440\u044B\u0442\u044C\u0413\u043E\u043B\u043E\u0432\u0443\u0418\u0434\u0442\u0438"
+    enabled: 0
+  - areaName: "\u0417\u0430\u0413\u043E\u043B\u043E\u0432\u0443"
+    enabled: 1

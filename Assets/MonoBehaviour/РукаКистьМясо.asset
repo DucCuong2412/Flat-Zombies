@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9750e678cc8800101c9c1f4bc2ab3265, type: 3}
+  m_Name: "\u0420\u0443\u043A\u0430\u041A\u0438\u0441\u0442\u044C\u041C\u044F\u0441\u043E"
+  m_EditorClassIdentifier: 
+  spriteSource: {fileID: 21300000, guid: 48a801a4c5534a0ab35c4c9aabbc3e69, type: 3}
+  group: 
+  damageAsGroup: 0
+  damages:
+  - idDamage: "\u043A\u0440\u043E\u0432\u044C"
+    blood: {fileID: 21300000, guid: 81da64260e54404786bc2243612246c5, type: 3}
+    hole: {fileID: 0}
+    slideToEdge: 0
+    positionPixels: {x: 9, y: 46}
+  skins: []

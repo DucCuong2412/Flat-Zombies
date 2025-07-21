@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Zombie
+  - UI
+  - Mine
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Существа
+  - Игрок
+  - Пули
+  - Ракеты
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: "Default"
+    uniqueID: 0
+    locked: 0
+  - name: "\u0444\u043E\u043D"
+    uniqueID: 3614947819
+    locked: 0
+  - name: "\u043D\u0430 \u0437\u0435\u043C\u043B\u0435"
+    uniqueID: 3161210887
+    locked: 0
+  - name: "\u043A\u043E\u043C\u043D\u0430\u0442\u0430"
+    uniqueID: 3327945137
+    locked: 0
+  - name: "\u0438\u0433\u0440\u043E\u043A"
+    uniqueID: 3580053901
+    locked: 0
+  - name: "\u0437\u043E\u043C\u0431\u0438"
+    uniqueID: 3644502727
+    locked: 0
+  - name: "\u043A\u0440\u043E\u0432\u044C"
+    uniqueID: 1131543419
+    locked: 0
+  - name: "\u0441\u043D\u0435\u0433"
+    uniqueID: 2458170779
+    locked: 0
+  - name: "\u043F\u0435\u0440\u0435\u0434"
+    uniqueID: 3386936451
+    locked: 0
+  - name: "\u0438\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441"
+    uniqueID: 832252413
+    locked: 0
