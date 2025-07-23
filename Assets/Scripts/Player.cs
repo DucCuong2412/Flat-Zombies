@@ -1,4 +1,5 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
@@ -248,7 +249,7 @@ public class Player : MonoBehaviour, IScreenApperancePlayExit, IEventSystemHandl
 			ReloadWeapon();
 		});
 	}
-
+	
 	public void LoadScene(string sceneName)
 	{
 		SceneManager.LoadScene(sceneName);
@@ -303,7 +304,19 @@ public class Player : MonoBehaviour, IScreenApperancePlayExit, IEventSystemHandl
 
 	private void Update()
 	{
-		if (!isDead && recoveryHealth > 0 && displayHealth != null && speedHealth != 0f)
+		if(Input.GetKeyDown(KeyCode.R))
+		{
+			ReloadWeapon();
+        }
+        if (Input.GetKeyDown(KeyCode.F))
+		{
+			SwitchWeapon();
+
+        }
+        {
+            
+        }
+        if (!isDead && recoveryHealth > 0 && displayHealth != null && speedHealth != 0f)
 		{
 			speedHealth += Time.deltaTime / timeRecoveryHealth;
 			health = Mathf.FloorToInt(speedHealth);

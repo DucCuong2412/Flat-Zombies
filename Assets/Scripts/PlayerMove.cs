@@ -97,9 +97,33 @@ public class PlayerMove : MonoBehaviour
 		}
 	}
 
-	private void Update()
+    private void LateUpdate()
+    {
+        if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
+        {
+            MoveStop();
+        }
+    }
+    private void Update()
 	{
-		if (move == Move.RIGHT || move == Move.LEFT)
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            MoveLeft();
+        }
+        else if (Input.GetKeyDown(KeyCode.D))
+        {
+            MoveRight();
+        }
+		//else if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
+		//{
+		//	MoveStop();
+		//}
+
+		if (Input.GetKeyDown(KeyCode.Space))
+        {
+            PlayStrikeLeg();
+        }
+        if (move == Move.RIGHT || move == Move.LEFT)
 		{
 			base.transform.Translate(Mathf.Floor(currentSpeed * Time.deltaTime * 1000f) * 0.001f, 0f, 0f);
 			Vector3 position = base.transform.position;
