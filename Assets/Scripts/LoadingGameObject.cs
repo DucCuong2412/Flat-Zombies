@@ -62,7 +62,7 @@ public class LoadingGameObject : MonoBehaviour
 		if (!objectComplete.activeSelf)
 		{
 			objectComplete.SetActive(value: true);
-			textCurrentObject.gameObject.SetActive(value: false);
+			//textCurrentObject.gameObject.SetActive(value: false);
 			progressBar.gameObject.SetActive(value: false);
 		}
 		timerRunScene -= Time.deltaTime;

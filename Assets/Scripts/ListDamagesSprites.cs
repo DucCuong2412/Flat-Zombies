@@ -36,7 +36,7 @@ public class ListDamagesSprites : ScriptableObject, IScreenLoadingGame
 			currentAngle %= 360;
 			//SpriteWithDamage.Create(skins[i], GetGroup(damage.idDamage), damage.idDamage, CreateBloodHoleTex, damage.GetPosition(spriteSource.texture, skins[i].texture));
 		}
-		loader.textCurrentObject.text = damage.positionPixels.x + " : " + damage.positionPixels.y;
+		//loader.textCurrentObject.text = damage.positionPixels.x + " : " + damage.positionPixels.y;
 		current++;
 		return current == damages.Length;
 	}
